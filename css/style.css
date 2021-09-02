@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+
+/* Main container */
+#main-container {
+  display: flex;
+  background-color: hsl(244, 38%, 16%);
+  width: 1447px;
+  height: 580px;
+  margin-top: 17.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+/* 1st side = text content */
+#one-side {
+  width: 723.5px;
+  border-radius: 10px;
+}
+
+/* DIV OF MAIN SECTION => WHOLE CONTENT with out image*/
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-top: 6rem;
+}
+
+/* DIV OF MAIN HEADING AND PARAGRAPH*/
+.text {
+  font-family: "Inter", sans-serif;
+  text-align: left;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+.main-paragraph {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  width: 80%;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* 2nd side = image content */
+#second-side {
+  width: 723.5px;
+  height: 100%;
+  position: relative;
+  background-image: url("/images/image-header-desktop.jpg");
+  background-size: cover;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#second-side::before {
+  content: "";
+  background-color: hsl(277, 91%, 33%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 50%;
+  border-radius: 0px 10px 10px 0px;
+}
+
+/* REACH SECTION */
+.reach {
+  display: flex;
+  gap: 5rem;
+  line-height: 1.6;
+  margin-top: 5.5rem;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.9rem;
+}
+
+.reach p {
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+/* FOOTER */
+.attribution {
+  color: hsla(0, 0%, 100%, 0.6);
+  margin-top: 40px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* MOBILE SIZE  */
+
+@media screen and (max-width: 375px) {
+  /* MAIN CONTAINER */
+  #main-container {
+    position: relative;
+    display: flex;
+    width: 320px;
+    height: 790px;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    flex-direction: column-reverse;
+    overflow: hidden;
+  }
+
+  /* 1st side */
+  #one-side {
+    margin-top: 7rem;
+    width: 320px;
+  }
+
+  /* Main content */
+  .content {
+    display: block;
+    width: 100%;
+  }
+
+  /* TEXT CONTENT = Main heading and paragraph */
+  .text {
+    margin-top: 9rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+    padding-bottom: 15px;
+  }
+
+  .main-paragraph {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  /* 2nd side */
+  #second-side {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 32%;
+    border-radius: 0px 10px 0px 0px;
+  }
+
+  /* REACH SECTION */
+  .reach {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .companies,
+  .templates {
+    margin-bottom: 28px;
+  }
+
+  h2,
+  h3,
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  .reach p {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  /* FOOTER */
+  .attribution {
+    margin-bottom: 30px;
+  }
+}
