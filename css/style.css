@@ -12,8 +12,8 @@ body {
 #main-container {
   display: flex;
   background-color: hsl(244, 38%, 16%);
-  width: 1110px;
-  height: 460px;
+  width: 1385px;
+  height: 560px;
   margin-top: 14rem;
   margin-left: auto;
   margin-right: auto;
@@ -23,22 +23,22 @@ body {
 
 /* 1st side = text content */
 #one-side {
-  width: 555px;
+  width: 692.5px;
   border-radius: 10px;
 }
 
 /* DIV OF MAIN SECTION => WHOLE CONTENT with out image*/
 .content {
-  margin-top: 2.5rem;
-  width:80%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 5rem;
 }
 
 /* DIV OF MAIN HEADING AND PARAGRAPH*/
 .text {
   font-family: "Inter", sans-serif;
   text-align: left;
+  width: 71%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
@@ -63,7 +63,7 @@ span {
 
 /* 2nd side = image content */
 #second-side {
-  width:555px;
+  width: 692.5px;
   height: 100%;
   position: relative;
   background-image: url("/images/image-header-desktop.jpg");
@@ -86,18 +86,18 @@ span {
 /* REACH SECTION */
 .reach {
   display: flex;
-  line-height:1.6;
-  margin-top: 4rem;
-  justify-content: space-between;
+  line-height: 1.6;
+  margin-top: 5.5rem;
+  justify-content: space-evenly;
 }
 
 .companies {
-/*   margin-left: -40px; */
+  margin-left: -40px;
 }
 
 .queries,
 .templates {
-/*   margin-left: -60px; */
+  margin-left: -60px;
 }
 
 h2,
@@ -106,12 +106,12 @@ h4 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   color: hsl(0, 0%, 100%);
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .reach p {
   letter-spacing: 2px;
-  font-size: 14px;
+  font-size: 15px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
@@ -222,11 +222,3 @@ h4 {
   }
 }
 
-/* .companies {
-  margin-left: -40px;
-}
-
-.queries,
-.templates {
-  margin-left: -60px;
-} */
