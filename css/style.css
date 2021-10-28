@@ -12,9 +12,9 @@ body {
 #main-container {
   display: flex;
   background-color: hsl(244, 38%, 16%);
-  width: 1385px;
-  height: 560px;
-  margin-top: 14rem;
+  width: 1120px;
+  height: 450px;
+  margin-top: 10rem;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
@@ -23,27 +23,28 @@ body {
 
 /* 1st side = text content */
 #one-side {
-  width: 692.5px;
+  width: 560px;
   border-radius: 10px;
+  margin-top: 4rem;
+  margin-left: 4.5rem;
 }
 
-/* DIV OF MAIN SECTION => WHOLE CONTENT with out image*/
+/* DIV OF MAIN SECTION => WHOLE CONTENT without image*/
 .content {
-  margin-top: 5rem;
+  width: 400px;
 }
 
-/* DIV OF MAIN HEADING AND PARAGRAPH*/
+/* DIV OF MAIN HEADING */
 .text {
   font-family: "Inter", sans-serif;
   text-align: left;
-  width: 71%;
   margin-left: auto;
   margin-right: auto;
 }
 
 h1 {
   color: hsl(0, 0%, 100%);
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   font-weight: 700;
   padding-bottom: 30px;
 }
@@ -52,18 +53,63 @@ span {
   color: hsl(277, 64%, 61%);
 }
 
+/* DIV with -- Main Paragraph and stats  */
+.parag-with-stats {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .main-paragraph {
-  color: hsla(0, 0%, 100%, 0.75);
+  width: 350px;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  text-align: left;
   line-height: 1.7;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* REACH SECTION */
+.reach {
+  display: flex;
+  margin-top: 5.5rem;
+  margin-left: 2rem;
+  line-height: 1.6;
+  gap: 5rem;
+}
+
+.companies {
+  margin-left: -32px;
+}
+
+.queries,
+.templates {
+  margin-left: -20px;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.4rem;
+}
+
+.reach p {
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: hsla(0, 0%, 100%, 0.6);
 }
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 /* 2nd side = image content */
 #second-side {
-  width: 692.5px;
+  width: 560px;
   height: 100%;
   position: relative;
   background-image: url("/images/image-header-desktop.jpg");
@@ -81,41 +127,6 @@ span {
   height: 100%;
   opacity: 50%;
   border-radius: 0px 10px 10px 0px;
-}
-
-/* REACH SECTION */
-.reach {
-  display: flex;
-  line-height: 1.6;
-  margin-top: 5.5rem;
-  justify-content: space-evenly;
-}
-
-.companies {
-  margin-left: -40px;
-}
-
-.queries,
-.templates {
-  margin-left: -60px;
-}
-
-h2,
-h3,
-h4 {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  color: hsl(0, 0%, 100%);
-  font-size: 1.7rem;
-}
-
-.reach p {
-  letter-spacing: 2px;
-  font-size: 15px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: hsla(0, 0%, 100%, 0.6);
 }
 
 /* FOOTER */
