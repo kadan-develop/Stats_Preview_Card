@@ -32,7 +32,7 @@
   /* 1st side */
   #one-side {
     width: 200px;
-    margin-top: 6rem;
+    margin-top: 9rem;
     margin-left: 1.8rem;
     text-align: center;
   }
@@ -44,7 +44,7 @@
 
   /*  Div of Main heading  */
   .text {
-    margin-top: 9rem;
+    margin-top: 4.3rem;
     text-align: center;
   }
 
@@ -73,37 +73,20 @@
     border-radius: 10px 10px 0px 0px;
   }
 
-  /* REACH SECTION */
-  .reach {
-    display: flex;
-    flex-direction: column;
-    margin-left: 0;
-    gap: 0;
-    margin-top: 30px;
+  .reach_section {
+    grid-template-columns: auto;
+    gap: 1.8rem;
+    margin-top: 2rem;
   }
 
-  .companies,
-  .templates {
-    margin-bottom: 28px;
-  }
-
-  .companies,
-  .templates,
-  .queries {
-    margin-left: 0px;
-  }
-
-  h2,
-  h3,
-  h4 {
-    font-size: 1.5rem;
-  }
-
-  .reach p {
+  .reach_section p {
     font-size: 12px;
-    letter-spacing: 1px;
   }
 
+  li {
+    font-size: 1.5rem;
+    text-align: center;
+  }
   /* FOOTER */
   .attribution {
     margin-bottom: 20px;
