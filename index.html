@@ -9,14 +9,14 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/media_style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="./css/media_style.css" />
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
   <body>
@@ -25,25 +25,29 @@
         <div class="content">
           <div class="text">
             <h1>Get <span>insights</span> that help your business grow.</h1>
-            <p class="main-paragraph">
+          </div>
+          <!-- DIV with -- Main Paragraph and stats ----- START -->
+          <div class="main-paragraph">
+            <p>
               Discover the benefits of data analytics and make better decisions
               regarding revenue, customer experience, and overall efficiency.
             </p>
           </div>
-          <div class="reach">
-            <div class="companies">
-              <h2>10k+</h2>
+          <div class="reach_section">
+            <ul>
+              <li>10k+</li>
               <p>companies</p>
-            </div>
-            <div class="templates">
-              <h3>314</h3>
+            </ul>
+            <ul>
+              <li>314</li>
               <p>templates</p>
-            </div>
-            <div class="queries">
-              <h4>12M+</h4>
+            </ul>
+            <ul>
+              <li>12M+</li>
               <p>queries</p>
-            </div>
+            </ul>
           </div>
+          <!-- END -->
         </div>
       </div>
       <div id="second-side"></div>
