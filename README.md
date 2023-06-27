@@ -38,4 +38,5 @@ To see how you can add code snippets, see below:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/kadan-develop)
+- Frontend Mentor - [@kadan-develop](https://www.frontendmentor.io/profile/kadan-develop)
+- Live Website - [@checkhere](https://agitated-nightingale-4547ef.netlify.app/)
